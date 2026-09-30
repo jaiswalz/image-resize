@@ -19,11 +19,11 @@ CLOUDINARY_SECRET   = os.getenv("CLOUDINARY_API_SECRET", "KlJF3zzcbbM3tAjeEdEKSk
 
 
 # ── MySQL ─────────────────────────────────────────────────────
-MYSQL_HOST          = os.getenv("MYSQL_HOST", "localhost")
+MYSQL_HOST          = os.getenv("MYSQL_HOST", "10.126.33.68")
 MYSQL_PORT          = int(os.getenv("MYSQL_PORT", "3306"))
-MYSQL_DB            = os.getenv("MYSQL_DB", "image_pipeline")
-MYSQL_USER          = os.getenv("MYSQL_USER", "root")
-MYSQL_PASSWORD      = os.getenv("MYSQL_PASSWORD", "root123")
+MYSQL_DB            = os.getenv("MYSQL_DB", "imageresize")
+MYSQL_USER          = os.getenv("MYSQL_USER", "imageuser")
+MYSQL_PASSWORD      = os.getenv("MYSQL_PASSWORD", "86RSbUhu$mlCOS#z")
 
 # ── Image output ──────────────────────────────────────────────
 TARGET_W            = int(os.getenv("TARGET_W", "1450"))
